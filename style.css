@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    background-color: #EDDEA4;
+
+
+}
+
+.siderbar {
+    padding: 15px;
+    margin-left: 50px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.container {
+    height: 800px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+    margin-left: -95px;
+    background-color: #fff;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.heading {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    color: #FF5500;
+    font-size: 1.5rem;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+.form-control label {
+    display: inline-block;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.form-control input {
+    padding: 5px;
+    font-size: 16px;
+    width: 80%;
+    display: block;
+}
+
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.success i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e02215;
+}
+
+#form button {
+    width: 80%;
+    height: 40px;
+    color: #000;
+    background-color: #FF5500;
+    font-size: 1.6rem;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+
+}
